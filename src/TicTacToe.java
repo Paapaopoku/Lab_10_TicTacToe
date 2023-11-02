@@ -107,7 +107,7 @@ public class TicTacToe
                     if(isWin(play))
                     {
                         display();
-                        System.out.println("Player " + play + "wins!");
+                        System.out.println("Player " + play + " wins!");
                         playing = false;
                     }
                     else if (moveCnt >= Moves_To_Tie)
